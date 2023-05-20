@@ -1,0 +1,19 @@
+.bglightthememobile {
+  background-image: url(/public/images/bg-mobile-light.jpg);
+  background-size: 100% 100%;
+}
+
+.bglightthemedesktop {
+  background-image: url(/public/images/bg-desktop-light.jpg);
+  background-size: 100% 100%;
+}
+
+.bgdarkthememobile {
+  background-image: url(/public/images/bg-mobile-dark.jpg);
+  background-size: 100% 100%;
+}
+
+.bgdarkthemedesktop {
+  background-image: url(/public/images/bg-desktop-dark.jpg);
+  background-size: 100% 100%;
+}/*# sourceMappingURL=classes.css.map */

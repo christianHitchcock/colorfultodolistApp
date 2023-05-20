@@ -1,0 +1,55 @@
+
+//dark theme
+
+    $backgroundColor: #161722;
+    $box-shadow: hsl(235, 24%, 19%);
+    $text-color :  hsl(234, 39%, 85%);
+    $hover-color : hsl(236, 33%, 92%);
+    $active-color:#777a92;
+    $checked-color: #4d5066;
+    $box-color: hsl(235, 24%, 19%);
+
+
+
+
+
+
+// $themes:(
+//     dark:(
+//     backgroundColor: hsl(235, 21%, 11%),
+//     box-shadow :hsl(235, 24%, 19%),
+//     text-color :  hsl(234, 39%, 85%),
+//     hover-color : hsl(236, 33%, 92%),
+//     active-color:hsl(234, 11%, 52%),
+//     checked-color: hsl(233, 14%, 35%),
+//     box-color: hsl(235, 24%, 19%), 
+// ),
+// light: (
+//     backgroundColor : hsl(0, 0%, 98%) ,
+//     box-shadow : hsl(236, 33%, 92%),
+//     textColor :  hsl(235, 19%, 35%),
+//     hoverColor : hsl(235, 19%, 35%),
+//     checkedColor:hsl(236, 9%, 61%),   
+// )
+// );
+
+    // implementation of themes
+
+// @mixin themify($themes:$themes){
+//     @each $theme, $map in $themes{
+//         .theme-#{$theme} & {
+//             $theme-map:() !global;
+//             @each $key, $submap in $map {
+//                 $value: map-get(map-get($themes, $theme), '#{$key}' );
+//                 $theme-map: map-merge($theme-map , ($key: $value)) !global;
+//             }
+//             @content;
+//             $theme-map:null !global
+//             }
+//         }
+//     }
+
+// @function themed($key) {
+//     @return map-get($theme-map , $key);
+// }
+
